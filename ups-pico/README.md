@@ -15,12 +15,12 @@ Plugin for monitoring and control of Pimodules UPS PIco HV3.0A http://pimodules.
 - installed Python 3 smbus module: `sudo apt-get install python3-smbus`
 - Working Python plugin system http://www.domoticz.com/wiki/Using_Python_plugins
 
-## Installation
+## How to Installation 
 - in Domoticz folder `domoticz/plugins/` create folder `ups-pico`
 - copy `plugin.py` to folder `domoticz/plugins/ups-pico`
 - restart Domoticz
 
-## Configuration
+## How to Configuration
 - Check menu Setup / Settings / System if "Accept new Hardware Devices" is enabled
 - In menu Setup / Hardware add new device - type: UPS PIco HV3.0A (plugin), enter name of your choice (for example "UPS PIco")
 - Open Setup / Log and watch for plugin start
